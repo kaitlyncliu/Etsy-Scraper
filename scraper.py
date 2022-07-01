@@ -73,7 +73,6 @@ class Scraper():
     def execute(self):
         while (self.cur_page <= self.total_pages 
                and self.num_requests < self.total_pages):
-            print(self.cur_page)
             self.get_request()
             self.get_listings()
             self.iterate()
@@ -83,12 +82,8 @@ class Scraper():
 
 def main():
     args = sys.argv[1:]
-    print(args)
     result = Scraper(args[0], int(args[1]))
     result.execute()
-    # sys.stdout = open("html.txt", "w")
-    # print(result.doc.find("main"))
-    # sys.stdout.close()
 
 if __name__ == "__main__":
     main()

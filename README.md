@@ -13,6 +13,7 @@ pip install bs4
 
 * Example:
 ```
-python scraper.py "keychains" 2
+python scraper.py "stickers" 2
 ```
+* Results of this example are in the example.csv file.
 
