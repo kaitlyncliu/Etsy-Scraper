@@ -81,14 +81,14 @@ class Scraper():
         self.export_csv()
 
 
-
-
 def main():
-    result = Scraper("stickers", 1)
+    args = sys.argv[1:]
+    print(args)
+    result = Scraper(args[0], int(args[1]))
     result.execute()
-    sys.stdout = open("html.txt", "w")
-    print(result.doc.find("main"))
-    sys.stdout.close()
+    # sys.stdout = open("html.txt", "w")
+    # print(result.doc.find("main"))
+    # sys.stdout.close()
 
 if __name__ == "__main__":
     main()
