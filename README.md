@@ -8,10 +8,8 @@
 git clone https://github.com/kaitlyncliu/Etsy-Scraper
 pip install bs4
 ```
-* Execute a command of the format `python scraper.py search_term num_pages` in
-* in the cloned directory.
-* The results will be exported to a .csv in your directory. Each page returns
-* ~ 8 results.
+* Execute a command of the format `python scraper.py search_term num_pages` in the cloned directory.
+* The results will be exported to a .csv in your directory. Each page returns ~8 results.
 
 * Example:
 ```
