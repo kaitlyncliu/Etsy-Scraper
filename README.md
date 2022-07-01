@@ -4,17 +4,17 @@
 
 # RUN
 * Execute the following code to download this scraper and install dependencies.
-'''
+```
 git clone https://github.com/kaitlyncliu/Etsy-Scraper
 pip install bs4
-'''
-* Execute a command of the format 'python scraper.py search_term num_pages' in
+```
+* Execute a command of the format `python scraper.py search_term num_pages` in
 * in the cloned directory.
 * The results will be exported to a .csv in your directory. Each page returns
 * ~ 8 results.
 
 * Example:
-'''
+```
 python scraper.py "keychains" 2
-'''
+```
 
