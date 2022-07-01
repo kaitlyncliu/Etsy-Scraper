@@ -3,9 +3,10 @@
 * A program to scrape search results from www.etsy.com
 
 # RUN
-* Execute the following code to download this scraper.
+* Execute the following code to download this scraper and install dependencies.
 '''
 git clone https://github.com/kaitlyncliu/Etsy-Scraper
+pip install bs4
 '''
 * Execute a command of the format 'python scraper.py search_term num_pages' in
 * in the cloned directory.
